@@ -1,6 +1,6 @@
 function initMap() {
 	//alert('yo yo yo');
-  var here = new google.maps.Map(document.getElementbyId('map'), {
+  var here = new google.maps.Map(document.getElementById('map'), {
   center: {lat: 41.901987, lng: -87.622139},
   zoom: 8
   });
@@ -10,7 +10,7 @@ function initMap() {
     map: here,
 	  animation: goole.maps.Animation.DROP,
 	  draggable:true,
-	  icon: 'marker.jpg',
+	  icon: 'media/marker.jpg',
 	  title: 'Look here!'
   });
   marker.addListener('click', toggleBounce);
@@ -31,6 +31,6 @@ function toggleBounce() {
   } else {
     marker.setAnimation(google.maps.Animation.BOUNCE);
   }
-	}
+	} 
 
 //google.maps.event.addDOMListener(window, 'load', initMap);
