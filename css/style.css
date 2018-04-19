@@ -199,11 +199,11 @@ a.footer {
 	padding: 15px;
 }
 #map {
-	height: 50%;
+	height: 450px;
 	width: 50%;
-	margin: 0 auto;
+	margin: 25px auto;
 	overflow: hidden;
-	background-color: ;
+	/*background-color: ;*/
 	border: 5px solid red;
 }
 #canvas {
