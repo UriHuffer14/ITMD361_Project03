@@ -204,6 +204,7 @@ a.footer {
 	margin: 0 auto;
 	overflow: hidden;
 	background-color: ;
+	border: 5px solid red;
 }
 #canvas {
 	height: 50%;
