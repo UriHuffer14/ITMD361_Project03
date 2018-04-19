@@ -1,5 +1,5 @@
 function initMap() {
-	alert('yo yo yo');
+	//alert('yo yo yo');
   var here = new google.maps.Map(document.getElementbyId('map'), {
   center: {lat: 41.901987, lng: -87.622139},
   zoom: 8
