@@ -5,18 +5,17 @@ function initMap() {
   zoom: 8
   });
 
-	
   var marker = new google.maps.Marker({
     position: center,
     map: here,
 	  animation: goole.maps.Animation.DROP,
-	  draggable:true,
-	  icon: 'marker.jpg'
+	  /*draggable:true,
+	  icon: 'marker.jpg',*/
 	  title: 'Look here!'
   });
   marker.addListener('click', toggleBounce);
 
- var contentString = 'My Summer Getaway Spot';
+  var contentString = '<h1>My Summer Getaway Spot</h1>';
 
   var inforwindow = new google.maps.InfoWindow({
     content: contentString
@@ -25,6 +24,13 @@ function initMap() {
   google.maps.event.addListener(marker, 'mouseover', function() {
 	  infowindow.open(here, marker);
   });
+	}
+function toggleBounce() {
+  if (marker.getAnimation() !== null) {
+    marker.setAnimation(null);
+  } else {
+    marker.setAnimation(google.maps.Animation.BOUNCE);
+  }
+	}
 
-}
 google.maps.event.addDOMListener(window, 'load', initMap);
