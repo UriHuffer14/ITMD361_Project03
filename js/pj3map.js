@@ -9,8 +9,8 @@ function initMap() {
     position: center,
     map: here,
 	  animation: goole.maps.Animation.DROP,
-	  /*draggable:true,
-	  icon: 'marker.jpg',*/
+	  draggable:true,
+	  icon: 'marker.jpg',
 	  title: 'Look here!'
   });
   marker.addListener('click', toggleBounce);
@@ -33,4 +33,4 @@ function toggleBounce() {
   }
 	}
 
-google.maps.event.addDOMListener(window, 'load', initMap);
+//google.maps.event.addDOMListener(window, 'load', initMap);
