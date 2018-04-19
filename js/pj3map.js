@@ -14,7 +14,7 @@ function initMap() {
 	  icon: 'marker.jpg',
 	  title: 'Look here!'
   });
-  /*marker.addListener('click', toggleBounce);
+  marker.addListener('click', toggleBounce);
 
   var contentString = '<h1>My Summer Getaway Spot</h1>';
 
@@ -24,14 +24,14 @@ function initMap() {
 
   marker.addListener('mouseover', function() {
 	  infowindow.open(here, marker);
-  });*/
+  });
 	}
-/*function toggleBounce() {
+function toggleBounce() {
   if (marker.getAnimation() !== null) {
     marker.setAnimation(null);
   } else {
     marker.setAnimation(google.maps.Animation.BOUNCE);
   }
 	} 
-*/
+
 //google.maps.event.addDOMListener(window, 'load', initMap);
