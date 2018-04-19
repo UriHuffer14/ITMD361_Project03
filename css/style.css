@@ -1,0 +1,213 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*end of reset code*/
+body {
+	color: black;
+	font-family: palatino;
+}
+h1, h3 {
+	color: cadetblue;
+	font-family: charcoal;
+}
+div.wrapper {
+	width: 960px;
+	position: absolute;
+	margin-left: 20px;
+}
+div.fluid {
+	top: 24px;
+	width: 80%;
+	position: absolute;
+	float: left;
+	margin-right: 8%;
+	margin-left: 8%;
+	/*background-image: url("media/dexlogo.png");*/
+	/*padding-left: 2%;
+	padding-right: 2%; */
+}
+header.nav {
+	background-color: black;
+	position: absolute;
+	margin-left: 450px;
+}
+header.fluid {
+	width: 501px;
+	/*height: 24px; */
+	background-color: black;
+	position: absolute;
+	margin-left: 390px;
+}
+div.titlefluid {
+	width: 344px;
+	text-align: center;
+	/*float: left; */
+	margin: 30%;
+	margin-top: 35px;
+	margin-bottom: 4%;
+	font-size: 1.5em;
+	/*padding-right: 25%;
+	/*background-image: url("media/dexlogo.png");*/
+}
+a.nav:hover {
+	background-color: snow;
+	border-radius: 24px;
+}
+li.nav {
+	border: 2px solid black;
+	/*border-radius: 24px;*/
+	float: left;
+	margin: 0px 5px;
+}
+ul, li, a {
+	color: black;
+	display: block;
+}
+li {
+	text-indent: 20px;
+}
+a.section3 {
+	color: cadetblue;
+}
+li.section3 {
+	color: gold;
+}
+a.nav {
+	color: gold;
+	text-decoration: none;
+}
+div.title {
+	position: relative;
+	text-align: center;
+	width: 626px;
+	top: 60px;
+	margin-bottom: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 1.5em;
+	padding-bottom: 40px;
+}
+.sectiontitle {
+	font-size: 1.1em;
+	text-indent: 50px;
+	margin: 5px 0px;
+	text-decoration: underline;
+}
+.sectiontitle2 {
+	font-weight: bold;
+	font-size: 1.1em;
+	text-indent: 50px;
+	margin: 5px 0px;
+	text-decoration: none;
+	padding: 6px 0px;
+}
+.para {
+	background-color: turquoise;
+}
+article.section1 {
+	margin: 10px 30px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 20px;
+	border: 5px solid midnightblue;
+	/*text-spacing: 1.1em;*/
+}
+article.section2 {
+	margin: 10px 20px;
+	padding-bottom: 20px;
+}
+article.section3 {
+	margin-left: auto;
+	margin-right: auto;
+	/*float: center; */
+	padding-bottom: 20px;
+	color: gold;
+	padding-right: 2%;
+	padding-left: 2%;
+	/*background-color: gray; */
+	background-color: aliceblue;
+}
+.myphoto {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 15%;
+	margin-top: 15px;
+}
+.video {
+	
+}
+footer.footer {
+	text-align: center;
+	font-size: 1.3em;
+	background-color: lightgrey;
+}
+a.footer {
+	text-decoration: none;
+}
+.resume {
+	padding: 10px;
+}
+.resborder {
+	margin: 10px;
+	border: 6px dashed black;
+	padding: 15px;
+}
+#map {
+	height: 50%;
+	width: 50%;
+	margin: 0 auto;
+	overflow: hidden;
+	background-color: ;
+}
+#canvas {
+	height: 50%;
+	width: 50%;
+	margin: 15px;
+	background-color: ;
+}
