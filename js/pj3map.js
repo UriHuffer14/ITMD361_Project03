@@ -9,7 +9,7 @@ function initMap() {
   var marker = new google.maps.Marker({
     position: {lat: 41.901987, lng: -87.622139},
     map: here,
-	  //animation: google.maps.Animation.DROP,
+	  animation: google.maps.Animation.DROP,
 	  draggable:true,
 	  //icon: '../media/marker1.png',
 	  //title: 'Look here!'
