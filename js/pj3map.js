@@ -1,13 +1,13 @@
-var location = {lat: 41.901987, lng: -87.622139};
+//var location = {lat: 41.901987, lng: -87.622139};
 function initMap() {
 	//alert('yo yo yo');
   var here = new google.maps.Map(document.getElementById('map'), {
-  center: location,
+  center: {lat: 41.901987, lng: -87.622139};,
   zoom: 16
   });
 
   var marker = new google.maps.Marker({
-    position: location,
+    position: {lat: 41.901987, lng: -87.622139};,
     map: here,
 	  //animation: google.maps.Animation.DROP,
 	  draggable:true,
