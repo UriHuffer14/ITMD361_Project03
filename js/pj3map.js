@@ -19,7 +19,7 @@ function initMap() {
 
   var contentString = '<h1>My Summer Getaway Spot</h1>';
 
-  var inforwindow = new google.maps.InfoWindow({
+  var infowindow = new google.maps.InfoWindow({
     content: contentString
   });
 
