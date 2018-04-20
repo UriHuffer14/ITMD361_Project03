@@ -17,7 +17,7 @@ function initMap() {
   });
   marker.addListener('click', toggleBounce);
 
-  var contentString = '<h1>My Summer Getaway Spot</h1>';
+  var contentString = '<h1>My Summer Getaway Spot!</h1>';
 
   var infowindow = new google.maps.InfoWindow({
     content: contentString
